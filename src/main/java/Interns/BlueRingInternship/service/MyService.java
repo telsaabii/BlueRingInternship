@@ -24,12 +24,12 @@ public class MyService {//ask Roni about "class can be a record"
     public MytableEntity createEntity(Map<String, Object> entityDTO) {
         MytableEntity table = new MytableEntity();
 
-        if (entityDTO.get("FirstName") != null) {
-            table.setFirstName((String) entityDTO.get("FirstName"));
+        if (entityDTO.get("first_name") != null) {
+            table.setFirstName((String) entityDTO.get("first_name"));
         }
 
-        if (entityDTO.get("LastName") != null) {
-            table.setLastName((String) entityDTO.get("LastName"));
+        if (entityDTO.get("last_name") != null) {
+            table.setLastName((String) entityDTO.get("last_name"));
         }
 
         if (entityDTO.get("ID") != null) {

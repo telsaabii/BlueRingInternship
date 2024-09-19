@@ -14,10 +14,10 @@ import java.util.Objects;
 @Table(name = "mytable", schema = "internship", catalog = "")
 public class MytableEntity {
 
-    @Basic@Column(name = "FirstName")
+    @Basic@Column(name = "first_name")
     private String firstName;
 
-    @Basic@Column(name = "LastName")
+    @Basic@Column(name = "last_name")
     private String lastName;
 
     @Id@Column(name = "ID")
